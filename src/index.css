@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border-gradient {
+  border: 1px solid;
+  border-image-source: linear-gradient(90deg, #272300 0%, #5E5400 100%);
+  border-image-slice: 1;
+  border-radius: 8px;
+}
+
+/* Hide scrollbar but allow scroll */
+*{::-webkit-scrollbar {
+  display: none;
+}}
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
