@@ -5,7 +5,8 @@
   "scripts": {
     "start": "concurrently \"npm run backend\" \"npm run frontend\"",
     "backend": "cd backend && npm install && npm start",
-    "frontend": "npm install && vite"
+    "frontend": "npm install && vite",
+    "vercel-build": "vite build"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.6.0",
