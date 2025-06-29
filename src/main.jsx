@@ -12,7 +12,7 @@ const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID || '550702005187-d9l8dnp3
 
 createRoot(document.getElementById('root')).render(
   <GoogleOAuthProvider clientId={clientId}>
-    <BrowserRouter basename="/exp_upd">
+    <BrowserRouter basename="/">
       <AuthContextProvider>
         <CourseContextProvider>
           <App />
